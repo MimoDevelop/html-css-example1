@@ -1,7 +1,7 @@
 body {
   margin:0;
   font-family: Arial, Helvetica, sans-serif;
-  background: #222;
+  background: rgb(65, 64, 64);
   color: #fff;
   font-size: 1.1 em;
   line-height: 1.5em;
@@ -26,7 +26,7 @@ p {
 
 .btn{
   display: inline-block;
-  background: #222;
+  background: #666;
   color: #fff;
   text-decoration: none;
   padding: 1em 2em;
@@ -36,7 +36,7 @@ p {
 
 .btn:hover {
   background: #eaeaea;
-  color: #222;
+  color: rgb(241, 185, 185);
 }
 
 #showcase {
@@ -47,7 +47,7 @@ p {
 
 #showcase .bg-image {
   position: absolute;
-  background: #222 url('https://images.pexels.com/photos/276452/pexels-photo-276452.jpeg');
+  background: rgb(61, 59, 59) url('https://images.pexels.com/photos/276452/pexels-photo-276452.jpeg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -86,7 +86,7 @@ p {
 #section-b li {
   margin-bottom: 1em;
   background: #fff;
-  color: #222;
+  color: #333;
 }
 
 .card-content {
@@ -95,7 +95,7 @@ p {
 
 #section-c {
   background: #fff;
-  color: #222;
+  color: #666;
   padding: 2em;
 }
 
